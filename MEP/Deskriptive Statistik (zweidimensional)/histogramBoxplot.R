@@ -1,4 +1,4 @@
-geysir <- read.table("SW03/Unterricht/geysir.dat")
+geysir <- read.table("../../SW03/Unterricht/geysir.dat")
 par(mfrow = c(2, 2))
 head(geysir)
 hist(geysir [, "Zeitspanne"],
